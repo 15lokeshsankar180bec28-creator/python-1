@@ -1,0 +1,8 @@
+import math
+
+ab = int(input())
+bc = int(input())
+
+angle_deg = math.degrees(math.atan2(ab, bc))
+
+print(f"{round(angle_deg)}{chr(176)}")
